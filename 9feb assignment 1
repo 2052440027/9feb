@@ -1,10 +1,12 @@
-a=2
-b=3
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
 if(a>b):
  print('a is bigger:',a)
 else:
  print('b is bigger:',b)
 
 Output:
- b is bigger: 3
->
+enter a value:3
+enter b value:4
+b is bigger: 4
+> 
